@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Boka</title>
+</head>
+
+<body>
+  <header>
+    <div class="header_label">
+      <img src="img/logga.jpg" alt="" style="width:100px; height:100px">
+      <h1>Edvin Hotell</h1>
+      <img src="img/logga.jpg" alt="" style="width:100px; height:100px">
+    </div>
+  </header>
+  <nav>
+    <div class="nav_container">
+      <div class="nav_item">
+        <a href="index.html">Hem</a>
+      </div>
+      <div class="nav_item">
+        <a href="boka.html" class="active">Boka</a>
+      </div>
+      <div class="nav_item">
+        <a href="hitta.html">Hitta</a>
+      </div>
+      <div class="nav_item">
+        <a href="kontakta.html">Kontakta</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="form_container">
+      <div class="form">
+        <h1 class="center_label">Boka Här!</h1>
+        <label for="name" class="center_label">Skriv ditt namn</label>
+        <input type="text" class="input_item" name="name" placeholder="Namn" value="" id="name">
+        <label for="email" class="center_label">Ange e-post adress</label>
+        <input type="text" class="input_item" name="email" placeholder="E-post adress" value="" id="email">
+        <label for="phone" class="center_label">Ange telefonmummer</label>
+        <input type="text" class="input_item" name="phone" placeholder="Telefonmummer" value="" id="phone">
+        <label for="nights" class="center_label">Hur många nätter vill du/ni stanna?</label>
+        <input type="text" class="input_item" name="nights" placeholder="Till exempel 1 natt" value="" id="nights">
+        <label for="room" class="center_label">Hur många sängar ska rummet ha?</label>
+        <input type="text" class="input_item" name="room" placeholder="Till exempel 2 sängar" value="" id="room">
+        <label for="other" class="center_label">Övrigt</label>
+        <textarea class="input_item" name="other" placeholder="Övrigt" id="other"></textarea>
+        <h3 class="center_label">Total Pris:</h3>
+        <button type="button" class="button" name="button">Skicka</button>
+      </div>
+      <div class="aside">
+        <div class="list_container">
+          <h1 class="center_label">Priser:</h1>
+          <ul class="list">
+            <li>Enkel säng: 399 kr/natt</li>
+            <li>Dubbelsäng : 700 kr/natt</li>
+            <li>Dubbelsäng med frukost: 999 kr/natt</li>
+            <li>2 st våningssängar: 1200 kr/natt</li>
+            <li>2 sängar med dubbelrum + frukost: 2000 kr/natt</li>
+          </ul>
+        </div>
+        <br>
+        <div class="booking_img_container">
+          <img src="img/room.jpg" alt="" class="booking_img" height="400">
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <p>Telefon:<a class="no-hover" href="tel:073-767-34-34"> 073 767 34 34</a></p>
+    <p>E-post: <a class="no-hover" href="mailto:zkzkspc@.com"> zkzkspc@.com</a></p>
+    <p>Turistinfo: <a class="no-hover" href="https://malmo.se/Uppleva-och-gora/Besoka-Malmo.html">Besöka Malmö</a></p>
+  </footer>
+
+</body>
+
+</html>
